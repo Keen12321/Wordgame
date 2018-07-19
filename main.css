@@ -1,0 +1,46 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width: 100%;
+}
+
+#correct {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	height: 100px;
+	width: 500px;
+	letter-spacing: 3px;
+}
+
+#turns-remaining {
+	position: absolute;
+	top: 208px;
+	right: 320px;
+	font-size: 18px;
+}
+
+#guess {
+	position: absolute;
+  height: 75px;
+  width: 325px;
+  top: 330px;
+  right: 636px;
+  font-size: 45px;
+}
+
+.letterGuess {
+	position: absolute;
+  top: 330px;
+  right: 462px;
+  width: 175px;
+  height: 75px;
+  font-size: 30px;
+}
+
